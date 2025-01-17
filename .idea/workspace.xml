@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4a7feff6-1d6d-4da7-8d33-2cd77e51fe13" name="Changes" comment="Library Management System done using H2 DataBase, JUnit5, Hibernate_JPA">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/BookTests.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/BorrowingTests.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/CopiesTests.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/LibrarianTests.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/PublisherTests.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/UserTests.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/allclasses-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/allpackages-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/dao/BookDao.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/dao/BorrowingDao.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/dao/CopyDao.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/dao/Dao.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/dao/LibrarianDao.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/dao/PublisherDao.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/dao/UserDao.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/dao/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/dao/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/element-list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/entity/Book.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/entity/Borrowing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/entity/Copy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/entity/Librarian.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/entity/Publisher.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/entity/User.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/entity/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/entity/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/gui/DataBaseInsert.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/gui/LibrarianGUI.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/gui/MainApp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/gui/RoleChooser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/gui/UserGUI.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/gui/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/gui/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/help-doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/index-files/index-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/index-files/index-10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/index-files/index-11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/index-files/index-12.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/index-files/index-13.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/index-files/index-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/index-files/index-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/index-files/index-4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/index-files/index-5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/index-files/index-6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/index-files/index-7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/index-files/index-8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/index-files/index-9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/legal/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/legal/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/legal/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/legal/dejavufonts.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/legal/jquery.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/legal/jqueryUI.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/member-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/module-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/overview-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/overview-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/package-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/resource-files/copy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/resource-files/fonts/DejaVuLGCSans-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/resource-files/fonts/DejaVuLGCSans-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/resource-files/fonts/DejaVuLGCSans-BoldOblique.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/resource-files/fonts/DejaVuLGCSans-BoldOblique.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/resource-files/fonts/DejaVuLGCSans-Oblique.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/resource-files/fonts/DejaVuLGCSans-Oblique.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/resource-files/fonts/DejaVuLGCSans.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/resource-files/fonts/DejaVuLGCSans.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/resource-files/fonts/DejaVuLGCSansMono-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/resource-files/fonts/DejaVuLGCSansMono-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/resource-files/fonts/DejaVuLGCSansMono-BoldOblique.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/resource-files/fonts/DejaVuLGCSansMono-BoldOblique.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/resource-files/fonts/DejaVuLGCSansMono-Oblique.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/resource-files/fonts/DejaVuLGCSansMono-Oblique.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/resource-files/fonts/DejaVuLGCSansMono.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/resource-files/fonts/DejaVuLGCSansMono.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/resource-files/fonts/DejaVuLGCSerif-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/resource-files/fonts/DejaVuLGCSerif-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/resource-files/fonts/DejaVuLGCSerif-BoldItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/resource-files/fonts/DejaVuLGCSerif-BoldItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/resource-files/fonts/DejaVuLGCSerif-Italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/resource-files/fonts/DejaVuLGCSerif-Italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/resource-files/fonts/DejaVuLGCSerif.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/resource-files/fonts/DejaVuLGCSerif.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/resource-files/fonts/dejavu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/resource-files/glass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/resource-files/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/resource-files/link.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/resource-files/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/resource-files/x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/script-files/jquery-3.7.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/script-files/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/script-files/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/script-files/search-page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/script-files/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/serialized-form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/tag-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/type-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/BorrowingDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/CopyDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/Dao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/LibrarianDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/PublisherDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Borrowing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Copy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Librarian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Publisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gui/DataBaseInsert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gui/LibrarianGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gui/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gui/RoleChooser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gui/UserGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BookTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BorrowingTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CopiesTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LibrarianTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PublisherTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/UserTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ovsidee/LibraryManagementSystem_JPA_Hibernate_H2_jUnit5.git",
+    "accountId": "1017ecfc-9ff4-4d7a-bcc1-7bafc283d022"
+  }
+}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2rUgTSzUrDoolX7njx9GR5fyGfG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.MainApp.executor": "Run",
+    "JUnit.BookTests,testDeleteBookWithCopiesFails and 1 more.executor": "Run",
+    "JUnit.BookTests.executor": "Run",
+    "JUnit.BookTests.testDeleteBookAfterRemovingCopies.executor": "Run",
+    "JUnit.BookTests.testDeleteBookWithCopiesFails.executor": "Run",
+    "JUnit.BookTests.testUpdateBook.executor": "Run",
+    "JUnit.BorrowingTests.executor": "Run",
+    "JUnit.CopiesTests.executor": "Debug",
+    "JUnit.LibrarianTests.executor": "Run",
+    "JUnit.PublisherTests.executor": "Run",
+    "JUnit.UserTests.executor": "Run",
+    "JUnit.UserTests.testDeleteUserWithExistingBorrowingsShouldFail.executor": "Debug",
+    "JUnit.UserTests.testUpdateUser.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/UniversityProgrammingProjects/UTP/ThirdProject0.1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\UniversityProgrammingProjects\UTP\FourthProject\LibraryManagementSystem\src\main\resources\META-INF" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MainApp">
+    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gui.MainApp" />
+      <module name="LibraryManagementSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CopiesTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LibraryManagementSystem" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CopiesTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibrarianTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LibraryManagementSystem" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LibrarianTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PublisherTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LibraryManagementSystem" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PublisherTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LibraryManagementSystem" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainApp" />
+        <item itemvalue="JUnit.UserTests" />
+        <item itemvalue="JUnit.PublisherTests" />
+        <item itemvalue="JUnit.LibrarianTests" />
+        <item itemvalue="JUnit.CopiesTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4a7feff6-1d6d-4da7-8d33-2cd77e51fe13" name="Changes" comment="" />
+      <created>1736619075736</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1736619075736</updated>
+      <workItem from="1736619076815" duration="653000" />
+      <workItem from="1736628916041" duration="14625000" />
+      <workItem from="1736702314061" duration="15266000" />
+      <workItem from="1736791870212" duration="6454000" />
+      <workItem from="1736882742828" duration="1772000" />
+      <workItem from="1736891707783" duration="311000" />
+      <workItem from="1736969569883" duration="30000" />
+      <workItem from="1736970100392" duration="1289000" />
+      <workItem from="1736989624200" duration="213000" />
+      <workItem from="1737040265126" duration="13313000" />
+      <workItem from="1737146259507" duration="10253000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Library Management System done using H2 DataBase, JUnit5, Hibernate_JPA" />
+    <option name="LAST_COMMIT_MESSAGE" value="Library Management System done using H2 DataBase, JUnit5, Hibernate_JPA" />
+  </component>
+</project>

@@ -1,0 +1,33 @@
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence
+             http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd"
+             version="2.2">
+
+    <persistence-unit name="LibraryPU">
+
+        <!-- For testing/demo purposes, using in-memory H2 DB -->
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+
+        <properties>
+
+            <!-- H2 in-memory database URL -->
+            <property name="javax.persistence.jdbc.url" value="jdbc:h2:mem:library;DB_CLOSE_DELAY=-1" />
+            <property name="javax.persistence.jdbc.driver" value="org.h2.Driver" />
+            <property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect" />
+            <property name="hibernate.hbm2ddl.auto" value="update" />
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.format_sql" value="true" />
+
+            <!-- Set transaction isolation level -->
+            <property name="hibernate.connection.isolation" value="2" /> <!-- READ_COMMITTED -->
+
+            <!-- Enable second-level caching (optional, but useful for concurrency) -->
+            <property name="hibernate.cache.use_second_level_cache" value="true" />
+            <property name="hibernate.cache.region.factory_class" value="org.hibernate.cache.internal.NoCachingRegionFactory" />
+
+        </properties>
+
+    </persistence-unit>
+
+</persistence>
