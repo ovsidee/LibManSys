@@ -44,10 +44,6 @@ To run the application locally:
     ```
     
   To run the application:
-     ```
-    mvn clean install
-    ```
-
     ```
     mvn exec:java
     ```
