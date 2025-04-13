@@ -51,6 +51,7 @@ To run the application locally:
 ## Unit Testing
 
 This project includes unit tests implemented with JUnit 5. To run the tests:
+- Run the command:
   ```
     mvn test
   ```
