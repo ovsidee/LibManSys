@@ -42,10 +42,16 @@ To run the application locally:
     ```
     mvn clean install
     ```
+    
   To run the application:
+     ```
+    mvn clean install
+    ```
+
     ```
     mvn exec:java
     ```
+    
 ## Unit Testing
 
 This project includes unit tests implemented with JUnit 5. To run the tests:
