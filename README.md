@@ -31,17 +31,17 @@ A comprehensive **Library Management System** developed using **Java** and **Jav
 ## Running the Application
 
 To run the application locally:
-1. Clone the repository:
+1. **Clone the repository**:
    ```bash
    git clone https://github.com/your-username/LibraryManagementSystem.git && cd LibraryManagementSystem
-2. Compile and run the Java application using Maven:
+2. **Compile and run the Java application using Maven**:
   - Install Maven if you haven't already. Follow the instructions here.
   - To build the project:
     ```
     mvn clean install
     ```
     
-  - To run the application:
+3. Run the application:
     ```
     mvn exec:java
     ```
