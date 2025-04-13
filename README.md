@@ -21,18 +21,16 @@ A comprehensive **Library Management System** developed using **Java** and **Jav
 
 ## Technologies Used
 
-- **Java** (Core)
-- **Java Swing** (For GUI)
-- **JPA** (Java Persistence API)
-- **Hibernate** (ORM for database management)
-- **H2 Database** (For data storage)
-- **JUnit 5** (For unit testing)
-- **JavaDocs** (For generating API documentation)
+- **Java Swing** 
+- **JPA** 
+- **Hibernate** 
+- **H2 Database**
+- **JUnit 5** 
+- **JavaDocs** 
 
 ## Running the Application
 
 To run the application locally:
-
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/LibraryManagementSystem.git && cd LibraryManagementSystem
